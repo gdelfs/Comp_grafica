@@ -21,13 +21,12 @@ function draw() {
 		a=a+PI/50;
 	}
 	//Criando a esfera
-  for(c=0;c<20;c++){	
-    raio= raio - 5;
-    for(b=0;b<Numero_pontos;b++){		
-		fill(0, 255, 0, 255);
-		ellipse(centro + raio*cos(a), centro + raio*sin(a), tamanho, tamanho);
-		a=a+PI/20;
-	}
-  }
-	
+  	for(c=0;c<20;c++){	
+    		raio= raio - 5;
+    		for(b=0;b<Numero_pontos;b++){		
+			fill(0, 255, 0, 255);
+			ellipse(centro + raio*cos(a), centro + raio*sin(a), tamanho, tamanho);
+			a=a+PI/20;
+		}
+ 	}
 }
