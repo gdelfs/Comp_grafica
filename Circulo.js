@@ -6,7 +6,7 @@ function draw() {
 	Numero_pontos = 200;
 	tamanho =3;
 	tamanho_centro = 8;
-  centro = 200;
+  	centro = 200;
 	raio = 100;
 	a=0;
 	background(140);
